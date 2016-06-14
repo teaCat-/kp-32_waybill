@@ -1,0 +1,8 @@
+{
+  "generator-react-webpack": {
+    "appName": "wbApp",
+    "style": "css",
+    "postcss": false,
+    "generatedWithVersion": 3
+  }
+}
