@@ -4,10 +4,10 @@ Waybill
 to start
 enter in first cmd:
 
-  node server
+  <i>node server</i>
 
 and in second one:
 
-  node graphServ
+  <i>node graphServ</i>
   
 enjoy at localhost:8000 ;)
