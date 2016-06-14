@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Waybill Registery</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+		<style>
+		@font-face {
+    font-family: 'Geo';
+    src: url('/font/GEOMETRIA.OTF');
+    font-weight: normal;
+    font-style: normal;
+		}
+		 body {
+			background: url(images/bg.jpg); /* Цвет фона и путь к файлу */
+			-moz-background-size: 100%; /* Firefox 3.6+ */
+			-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+			-o-background-size: 100%; /* Opera 9.6+ */
+			background-size: 100%;
+			color: #000; /* Цвет текста */
+			font-family: Geo;
+		 }
+
+	circle {
+  fill: rgb(31, 119, 180);
+  fill-opacity: .25;
+  stroke: rgb(31, 119, 180);
+  stroke-width: 1px;
+}
+
+.leaf circle {
+  fill: #ff7f0e;
+  fill-opacity: 1;
+}
+
+text {
+  font: 10px sans-serif;
+}
+		</style>
+
+	</head>
+	<body>
+		<div class="navbar navbar-inverse" id="navbar">	</div>
+		<div id="graph">
+		</div>
+		<div id = "waybills">
+			<script>__REACT_DEVTOOLS_GLOBAL_HOOK__ = parent.__REACT_DEVTOOLS_GLOBAL_HOOK__</script>
+		  <script type="text/javascript" src="./assets/app.js"></script>
+		</div>
+	</body>
+</html>
