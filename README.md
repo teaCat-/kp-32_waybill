@@ -4,7 +4,7 @@ Waybill
 to start
 enter in first cmd:
 
-  <i>node server</i>
+  <i style="margin-left: 20px;">node server</i>
 
 and in second one:
 
